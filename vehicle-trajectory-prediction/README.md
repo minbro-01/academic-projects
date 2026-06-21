@@ -12,11 +12,22 @@
 - RNN, attention, Transformer 계열 모델이 예측 문제에 어떻게 활용되는지 정리합니다.
 - 구현 과정, 실험 조건, 결과, 한계를 기록합니다.
 
-## Planned Contents
+## Documents
+
+| Document | Purpose |
+| --- | --- |
+| [`problem-definition.md`](./problem-definition.md) | 문제 정의, 입력/출력, 핵심 질문 정리 |
+| [`method-plan.md`](./method-plan.md) | baseline과 sequence model 적용 계획 |
+| [`experiment-plan.md`](./experiment-plan.md) | 평가 지표와 실험 계획 정리 |
+
+## Planned Structure
 
 ```text
 vehicle-trajectory-prediction/
 ├─ README.md
+├─ problem-definition.md
+├─ method-plan.md
+├─ experiment-plan.md
 ├─ data/
 ├─ notebooks/
 ├─ src/
