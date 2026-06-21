@@ -13,15 +13,26 @@
 - 모델이 인식한 근거를 바탕으로 추론하는 흐름을 기록합니다.
 - 구현, 실험, 결과, 한계를 프로젝트 문서로 남깁니다.
 
+## Documents
+
+| Document | Purpose |
+| --- | --- |
+| [`problem-definition.md`](./problem-definition.md) | 문제 정의, 입력/출력, 핵심 질문 정리 |
+| [`method-plan.md`](./method-plan.md) | road topology 표현과 ego-lane 추론 흐름 정리 |
+| [`experiment-plan.md`](./experiment-plan.md) | 평가 기준, 실험 계획, 실패 사례 기록 방식 정리 |
+
 ## Related Study Notes
 
 컴퓨터 비전 개념 정리는 [`ai-engineering-study/coursework/computer-vision`](https://github.com/minbro-01/ai-engineering-study/tree/main/coursework/computer-vision)에 기록합니다.
 
-## Planned Contents
+## Planned Structure
 
 ```text
 road-topology-ego-lane-inference/
 ├─ README.md
+├─ problem-definition.md
+├─ method-plan.md
+├─ experiment-plan.md
 ├─ data/
 ├─ notebooks/
 ├─ src/
