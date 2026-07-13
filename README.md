@@ -26,13 +26,26 @@ AI Engineering, 자율주행, 응용 머신러닝 관련 프로젝트 결과물�
 academic-projects/
 ├─ README.md
 ├─ vehicle-trajectory-prediction/
-│  └─ README.md
+│  ├─ README.md
+│  ├─ problem-definition.md
+│  ├─ method-plan.md
+│  └─ experiment-plan.md
 ├─ drt-policy-recommendation/
-│  └─ README.md
+│  ├─ README.md
+│  ├─ problem-definition.md
+│  ├─ method-plan.md
+│  └─ paper-connection.md
 ├─ road-topology-ego-lane-inference/
-│  └─ README.md
+│  ├─ README.md
+│  ├─ problem-definition.md
+│  ├─ method-plan.md
+│  └─ experiment-plan.md
 └─ shared/
-   └─ README.md
+   ├─ README.md
+   └─ templates/
+      ├─ project-readme.md
+      ├─ experiment-log.md
+      └─ result-report.md
 ```
 
 ## Project README Format

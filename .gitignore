@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Data & model artifacts (keep heavy binaries out of git; track summaries in report.md) ---
+# Folders such as data/ and results/ are kept, but large raw files are ignored by type.
+# Commit a small sample or figures explicitly with `git add -f` when needed.
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tfrecord
+
+# --- Experiment tracking outputs ---
+runs/
+wandb/
+mlruns/
+lightning_logs/
+*.log
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
