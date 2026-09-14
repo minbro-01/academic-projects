@@ -1,62 +1,32 @@
-# Academic Projects
+# 프로젝트 포트폴리오
 
-AI Engineering, 자율주행, 응용 머신러닝 관련 프로젝트 결과물을 정리하는 저장소입니다.
+AI 엔지니어링과 자율주행 분야에서 수행한 프로젝트의 문제의식, 직접 구현한 내용, 현재 단계를 정리합니다.
 
-이 저장소는 수업 개념 정리나 논문 리뷰가 아니라, 실제 프로젝트의 문제 정의, 방법, 구현, 실험 결과, 회고를 한 곳에 모아두는 것을 목표로 합니다.
+## 주요 프로젝트
 
-## Role In My GitHub
+| 프로젝트 | 수행 내용 | 현재 단계·공개 범위 |
+| --- | --- | --- |
+| [RAG·LLM 기반 DRT 정책 지원](drt-policy-recommendation/README.md) | 문서 처리, 벡터 데이터베이스 구축, 검색 및 오픈 모델 답변 생성 코드 구현 | 프로토타입 구현 · 평가 보완 중 |
+| [지도 비의존 주행 장면 이해](map-free-driving/README.md) | 운전 경험에서 출발한 교차로 문제 탐구, 영상처리·기존 모델 결합과 시각화 | 후속 모델·실험 연구로 확장 중 |
+| [벡터맵 생성](vector-map-generation/README.md) | 벡터맵 생성 프로젝트 수행 | **Confidential implementation** · 소스 코드 공개 제한 |
 
-| Repository | Role |
+## 자료 읽는 방법
+
+각 프로젝트 소개에서 **수행한 작업**, **현재 연구 단계**, **공개 범위**를 구분합니다. 아직 검증하지 않은 연구 계획을 완료된 성과나 측정된 성능으로 표시하지 않습니다.
+
+벡터맵 생성의 구현 코드는 기밀 및 공개 제한으로 공개하지 않습니다. 다른 프로젝트의 자료 공유도 각 자료의 공개 범위에 따라 안내합니다.
+
+## 저장소 안내
+
+| 자료 | 위치 |
 | --- | --- |
-| [`ai-engineering-study`](https://github.com/minbro-01/ai-engineering-study) | 수업 기반 개념 정리와 작은 구현 연습 |
-| [`academic-projects`](https://github.com/minbro-01/academic-projects) | 프로젝트 결과물, 코드, 실험 결과 정리 |
-| [`research-log`](https://github.com/minbro-01/research-log) | 논문 리뷰, 연구 질문, 논문화 진행, 회고 기록 |
+| 전체 소개·연락처 | [GitHub 프로필](https://github.com/minbro-01) |
+| 논문·연구 과정 기록 | [research-log](https://github.com/minbro-01/research-log) |
+| 개념 학습·구현 연습 | [ai-engineering-study](https://github.com/minbro-01/ai-engineering-study) |
 
-## Project Map
+## 문서 원칙
 
-| Project | Area | Status | Description |
-| --- | --- | --- | --- |
-| [`vehicle-trajectory-prediction`](./vehicle-trajectory-prediction) | Deep Learning / Autonomous Driving | To be organized | 차량 궤적예측 과제 결과물 정리 예정 |
-| [`drt-policy-recommendation`](./drt-policy-recommendation) | NLP / LLM | In progress | DRT 운행 정책 제안 프로젝트 및 논문화 관련 결과물 정리 예정 |
-| [`road-topology-ego-lane-inference`](./road-topology-ego-lane-inference) | Computer Vision / Autonomous Driving | To be organized | 도로 topology 인식과 ego-lane 판단 프로젝트 정리 예정 |
-
-## Repository Structure
-
-```text
-academic-projects/
-├─ README.md
-├─ vehicle-trajectory-prediction/
-│  └─ README.md
-├─ drt-policy-recommendation/
-│  └─ README.md
-├─ road-topology-ego-lane-inference/
-│  └─ README.md
-└─ shared/
-   └─ README.md
-```
-
-## Project README Format
-
-각 프로젝트는 아래 형식을 기준으로 정리합니다.
-
-```text
-# Project Title
-
-## Problem
-## Motivation
-## My Role
-## Method
-## Implementation
-## Experiments
-## Results
-## Limitations
-## What I Learned
-## References
-```
-
-## Documentation Rule
-
-- 내가 직접 구현하거나 분석한 내용과 참고 자료를 구분합니다.
-- 수업자료, 외부 코드, 논문 내용을 그대로 복사하지 않습니다.
-- 결과뿐 아니라 문제 정의, 실험 조건, 실패한 시도, 개선 방향을 함께 기록합니다.
-- 논문화 과정에서의 생각과 읽은 자료는 `research-log`에 별도로 남깁니다.
+- README는 한국어로 작성하며, 기술명과 논문 제목은 원문을 유지할 수 있습니다.
+- 직접 수행한 내용과 참고 자료를 구분합니다.
+- 구현, 실험 계획, 측정 결과를 구분합니다.
+- 공개 제한이 있는 소스 코드와 자료는 공개 포트폴리오에 포함하지 않습니다.
