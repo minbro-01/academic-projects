@@ -1,6 +1,6 @@
-# 벡터맵 생성
+# Vectorized Map Generation
 
-**Vector Map Generation · Confidential implementation**
+**Confidential implementation**
 
 벡터맵 생성 프로젝트를 수행한 경험이 있습니다.
 
