@@ -1,44 +1,32 @@
-# DRT Policy Recommendation
+# RAG·LLM 기반 DRT 정책 지원
 
-NLP/LLM을 활용한 DRT 운행 정책 제안 프로젝트 결과물을 정리하는 공간입니다.
+DRT(수요응답형 교통) 관련 문서를 검색하고 오픈 모델의 답변 생성과 연결하는 과정을 구현·실험한 프로젝트입니다.
 
-## Problem
+## 문제와 접근
 
-DRT 운행 정책과 관련된 자료를 분석하고, 실제 정책 제안으로 연결할 수 있는 근거를 구성하는 문제를 다룹니다.
+교통 정책 관련 자료를 활용하려면 문서를 정리하고, 질문과 관련된 내용을 찾고, 이를 답변 과정에 연결해야 합니다. 이 프로젝트에서는 문서 처리·벡터 데이터베이스·검색·언어 모델 생성의 구성 요소를 직접 구현하며 연결 방식을 실험했습니다.
 
-## Project Goal
+## 수행한 작업
 
-- DRT 운행 정책 관련 자료를 정리합니다.
-- NLP/LLM을 활용해 정책 제안에 필요한 근거를 구성합니다.
-- 프로젝트 결과물과 논문화 진행 기록을 구분합니다.
+- 문서를 처리하고 벡터 데이터베이스를 구축했습니다.
+- 질의와 관련된 자료를 검색하는 코드를 구현했습니다.
+- 오픈 모델을 불러와 답변을 생성하는 코드까지 구현했습니다.
+- 구현 버전과 실험 기록을 정리하며 정책 지원 문제로 확장하고 있습니다.
 
-## Documents
+## 현재 단계
 
-| Document | Purpose |
+**프로토타입 구현 · 평가 보완 중**
+
+벡터 데이터베이스 구축과 오픈 모델 답변 생성은 구현한 내용입니다. 검색 근거가 실제 답변에 반영되는 방식과 응답 품질 평가는 보완 과제로 남아 있습니다. 정량적인 정확도 개선이나 정책적 효과가 검증된 시스템으로 소개하지 않습니다.
+
+## 공개 자료
+
+이 페이지는 공개 가능한 프로젝트 개요입니다. 아래 문서는 초기 문제 정의와 연구 계획을 담고 있으며, 측정된 성능 결과와 구분합니다.
+
+| 문서 | 내용 |
 | --- | --- |
-| [`problem-definition.md`](./problem-definition.md) | DRT 정책 제안 문제 정의와 핵심 질문 정리 |
-| [`method-plan.md`](./method-plan.md) | 자료 분석과 NLP/LLM 활용 계획 정리 |
-| [`paper-connection.md`](./paper-connection.md) | 프로젝트 결과물과 논문화 기록의 연결 정리 |
+| [문제 정의](problem-definition.md) | 정책 지원 문제와 핵심 질문 |
+| [방법 계획](method-plan.md) | 자료 분석과 NLP·LLM 활용 계획 |
+| [연구 연결](paper-connection.md) | 프로젝트와 논문 작성 과정의 관계 |
 
-## Related Research Log
-
-논문 작성 과정, 관련 연구 정리, 연구 질문은 [`research-log/paper-progress/drt-policy-recommendation`](https://github.com/minbro-01/research-log/tree/main/paper-progress/drt-policy-recommendation)에 기록합니다.
-
-## Planned Structure
-
-```text
-drt-policy-recommendation/
-├─ README.md
-├─ problem-definition.md
-├─ method-plan.md
-├─ paper-connection.md
-├─ data/
-├─ notebooks/
-├─ src/
-├─ results/
-└─ report.md
-```
-
-## Status
-
-In progress
+[프로젝트 목록](../README.md)
