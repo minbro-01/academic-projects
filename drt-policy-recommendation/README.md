@@ -1,4 +1,6 @@
-# RAG·LLM 기반 DRT 정책 지원
+# DRT Policy Recommendation
+
+**RAG·LLM 기반 DRT 정책 지원**
 
 DRT(수요응답형 교통) 관련 문서를 검색하고 오픈 모델의 답변 생성과 연결하는 과정을 구현·실험한 프로젝트입니다.
 
