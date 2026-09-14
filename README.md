@@ -6,9 +6,9 @@ AI 엔지니어링과 자율주행 분야에서 수행한 프로젝트의 문제
 
 | 프로젝트 | 수행 내용 | 현재 단계·공개 범위 |
 | --- | --- | --- |
-| [RAG·LLM 기반 DRT 정책 지원](drt-policy-recommendation/README.md) | 문서 처리, 벡터 데이터베이스 구축, 검색 및 오픈 모델 답변 생성 코드 구현 | 프로토타입 구현 · 평가 보완 중 |
-| [지도 비의존 주행 장면 이해](map-free-driving/README.md) | 운전 경험에서 출발한 교차로 문제 탐구, 영상처리·기존 모델 결합과 시각화 | 후속 모델·실험 연구로 확장 중 |
-| [벡터맵 생성](vector-map-generation/README.md) | 벡터맵 생성 프로젝트 수행 | **Confidential implementation** · 소스 코드 공개 제한 |
+| [DRT Policy Recommendation (RAG·LLM)](drt-policy-recommendation/README.md) | 문서 처리, 벡터 데이터베이스 구축, 검색 및 오픈 모델 답변 생성 코드 구현 | 프로토타입 구현 · 평가 보완 중 |
+| [Traffic-rule-aware Future Path](map-free-driving/README.md) | 운전 경험에서 출발한 교차로 문제 탐구, 영상처리·기존 모델 결합과 시각화 | 후속 모델·실험 연구로 확장 중 |
+| [Vectorized Map Generation](vector-map-generation/README.md) | 벡터맵 생성 프로젝트 수행 | **Confidential implementation** · 소스 코드 공개 제한 |
 
 ## 자료 읽는 방법
 
